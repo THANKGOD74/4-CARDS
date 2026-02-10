@@ -1,0 +1,168 @@
+/* .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 100%);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+}
+.sec-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 7rem;
+    margin-top: 5rem;
+}
+.sec-1 h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+
+}
+.sec-1 .red{
+    font-weight: 200;
+}
+.sec-1 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: hsl(212, 6%, 44%);
+    text-align: center;
+    width: 500px;
+}
+.sec-2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    margin-top: 6rem;
+}
+.box-4{
+    background-color: white;
+    width: 24rem;
+    height: 16rem;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 10px 10px  hsla(212, 6%, 44%, 0.5);
+}
+.box-4 h3{
+    font-family: "Poppins", sans-serif;
+    font-family: 400;
+    padding: 1rem;
+}
+.box-4 p{
+    font-family: "Poppins", sans-serif;
+    font-family: 200;
+    font-size: 15px;
+    padding: 0rem 1rem;
+    color: hsl(212, 6%, 44%);
+}
+.box-4 img{
+    position: absolute;
+    bottom: 3rem;
+    right: 2rem;
+
+}
+.supervisor{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.team{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.karma{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.cal{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+.int-cell{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    bottom: 9rem;
+}
+@media (max-width: 500px){
+    .sec-2{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top: -3rem;
+    }
+    .int-cell{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    bottom: 0rem;
+
+}
+.sec-1{
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+.sec-1 p{
+    width: 450px;
+    padding: 2rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+body{
+    padding: 3rem;
+}
+}
+/* for tablet */
+@media (min-width: 601px) and (max-width: 1024px){
+    body{
+    padding: 0rem;
+}
+main{
+    padding: 0rem;
+}
+    .sec-1{
+        margin: 3rem 1rem;
+        padding: 1rem 1rem;
+    }
+    .sec-1 p{
+        width: 600px;
+        /* padding: 2rem; */
+        margin-top: 2rem;
+    }
+    .sec-1 h2{
+        font-size: 30px;
+
+}
+
+    .sec-2{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2rem;
+    }
+    .int-cell{
+        bottom: 0;
+        gap: 2rem;
+    }
+    .cal{
+        position: relative;
+        bottom: 17.8rem;
+    }
+}
